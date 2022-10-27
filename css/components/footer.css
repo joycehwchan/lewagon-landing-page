@@ -1,5 +1,5 @@
 .footer {
-  margin-top: 2rem;
+  margin-top: 4rem;
   font-size: 0.8rem;
   height: 4rem;
   display: flex;
@@ -7,8 +7,13 @@
   align-items: center;
   transition: transform 400ms;
   cursor: zoom-in;
+  background-color:wheat;
 }
 
-.footer:hover{
-  transform: scale(1.6);
+.footer p{
+  transition: transform 200ms;
+}
+
+.footer:hover p {
+  transform: scale(1.02);
 }
