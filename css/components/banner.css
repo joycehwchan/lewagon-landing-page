@@ -1,0 +1,17 @@
+.banner {
+  /* height: 240px; */
+  padding: 220px 0 80px;
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px 8px rgba(0,0,0,0.6);;
+}
+
+.banner p {
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .banner {
+    padding: 120px 0 80px;
+  }
+}

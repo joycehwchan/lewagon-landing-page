@@ -1,0 +1,14 @@
+.footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: transform 400ms;
+  cursor: zoom-in;
+}
+
+.footer:hover{
+  transform: scale(1.6);
+}

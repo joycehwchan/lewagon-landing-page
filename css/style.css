@@ -1,0 +1,60 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+/* Fontawesome */
+/* @import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css'); */
+
+/* Importing all components file */
+@import url("components/container.css");
+@import url("components/navbar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+  /* font-family: Open Sans; */
+  background-color: antiquewhite;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 2.4rem 0;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: rgb(233, 44, 91);
+}
+
+p {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  font-weight: 300;
+  color: rgb(53, 52, 54);
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}

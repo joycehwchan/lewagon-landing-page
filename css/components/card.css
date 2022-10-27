@@ -1,0 +1,62 @@
+h2, p {
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 0.4rem;
+}
+
+.cards {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  cursor: help;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  height: 20rem;
+  width: 18rem;
+  transition: 300ms;
+  overflow: hidden;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.card:hover {
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+  transform: scale(1.02);
+}
+
+.card-img {
+  height: 12rem;
+  width: 100%;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .cards{
+    flex-direction: column;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .card-img {
+    height: 20rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .cards {
+    width: 80%;
+  }
+}
